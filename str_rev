@@ -1,0 +1,10 @@
+s1="you are the writer of your life"
+s2=""
+s1=s1.split()
+for i in range(len(s1)-1,-1,-1):
+    if i==0:
+        s2+=s1[i]
+        break
+    else:
+        s2+=s1[i]+" "
+print(s2)
